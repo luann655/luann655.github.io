@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presentación de Proyecto</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+<body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="100">
+    <!-- Loader -->
+    <div class="loader-wrapper">
+        <div class="loader"></div>
+    </div>
+    
+    <!-- Navigation -->
+    <nav id="navbar" class="navbar navbar-expand-lg sticky-nav">
+        <div class="container">
+            <a class="navbar-brand" href="#">GasGuard</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Acerca de</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#features">Características</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#gallery">Galería</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#team">Equipo</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div id="hero-particles" class="hero-particles"></div>
+        <div class="container hero-content">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h2 data-aos="fade-up" data-aos-delay="100">Tecnología avanzada para una vida más segura</h2>
+                    <p data-aos="fade-up" data-aos-delay="200">En la actualidad, la seguridad en el hogar es una de las principales preocupaciones de las personas. Somos un equipo comprometido con el bienestar y la protección de las personas, y creemos que la tecnología puede hacer la diferencia. Este proyecto tiene como objetivo desarrollar un sistema automatizado.</p>
+                    <div data-aos="fade-up" data-aos-delay="300">
+                        <a href="#about" class="btn btn-primary-custom btn-custom me-3">Descubrir más</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 d-flex justify-content-center" data-aos="zoom-in" data-aos-delay="600">
+                    <img src="12.jpeg" alt="Imagen del Proyecto" class="img-fluid rounded shadow" style="max-width: 80%; height: 80%;">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="section-particles" id="about-particles"></div>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0" data-aos="fade-right">
+                    
+                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/ZtefUY7CGdM" title="GasGuard Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="section-title">
+                        <h2>Nuestro Proyecto</h2>
+                    </div>
+                    
+                        <p>GasGuard es un sistema automatizado que utiliza sensores de gas para detectar la presencia de gases nocivos en el hogar. Cuando se detecta una concentración peligrosa, el sistema activa automáticamente mecanismos para abrir ventanas y puertas, facilitando la ventilación y reduciendo el riesgo de intoxicación.</p>
+                        <p>El sistema se basa en la lectura continua de los niveles de gas mediante sensores especializados. Cuando estos sensores detectan una concentración que supera un umbral predefinido, el Arduino activa el módulo de relé, que a su vez activa los servomotores para abrir las ventanas y puertas.</p>
+                        <p>Además, GasGuard incluye un sistema de alerta con buzzer, permitiendo que la casa este segura, incluso cuando no están en casa.</p>
+        
+                    <div class="row mt-4">
+                        <div class="col-md-6 mb-3">
+                            <div class="d-flex align-items-center">
+                                <i class="fas fa-check-circle text-primary me-2"></i>
+                                <span>Detección temprana</span>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <div class="d-flex align-items-center">
+                                <i class="fas fa-check-circle text-primary me-2"></i>
+                                <span>Respuesta automática</span>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <div class="d-flex align-items-center">
+                                <i class="fas fa-check-circle text-primary me-2"></i>
+                                <span>acción en tiempo real</span>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <div class="d-flex align-items-center">
+                                <i class="fas fa-check-circle text-primary me-2"></i>
+                                <span>Fácil instalación</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Features Section -->
+    <section id="features" class="section">
+        <div class="section-particles" id="features-particles"></div>
+        <div class="container">
+            <div class="section-title text-center" data-aos="fade-up">
+                <h2>Detalles del Proyecto</h2>
+                <p>Componentes del Proyecto:</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up">
+                    <div class="card-custom p-4">
+                        <h4 class="text-center mb-3">Arduino Uno</h4>
+                        <p class="text-center">Microcontrolador que actuará como el cerebro del sistema, gestionando las señales y controlando otros componentes.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card-custom p-4">
+                        <h4 class="text-center mb-3">Sensor de Gas (MQ-2 o MQ-7)</h4>
+                        <p class="text-center">Dispositivo encargado de detectar la presencia de gases peligrosos como metano, propano y monóxido de carbono en el ambiente.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card-custom p-4">
+                        <h4 class="text-center mb-3">Módulo de Relé</h4>
+                        <p class="text-center">Permite activar o desactivar dispositivos eléctricos, como servomotores, para abrir ventanas y puertas cuando se detectan niveles peligrosos de gas.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="card-custom p-4">
+                        <h4 class="text-center mb-3">Servomotores</h4>
+                        <p class="text-center">Utilizados para abrir y cerrar automáticamente las puertas cuando se activa el sistema de relé.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="400">
+                    <div class="card-custom p-4">
+                        <h4 class="text-center mb-3">Fuente de Alimentación</h4>
+                        <p class="text-center">Proporciona la energía necesaria para alimentar el Arduino y los demás componentes del sistema.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="500">
+                    <div class="card-custom p-4">
+                        <h4 class="text-center mb-3">Cables y Protoboard</h4>
+                        <p class="text-center">Se utilizan para realizar las conexiones físicas entre los distintos componentes electrónicos del proyecto.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="600">
+                    <div class="card-custom p-4">
+                        <h4 class="text-center mb-3">Software de Programación (Arduino IDE)</h4>
+                        <p class="text-center">Entorno de desarrollo que permite programar el comportamiento del sistema y las interacciones entre los componentes.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="section-title text-center mt-5" data-aos="fade-up">
+                <h2>Objetivos</h2>
+                <div class="row justify-content-center mt-4">
+                    <div class="col-lg-8">
+                        <ul class="list-unstyled">
+                            <li class="mb-3 d-flex align-items-center">
+                                <i class="fas fa-check-circle text-primary me-3"></i>
+                                <span>Detectar la presencia de gases peligrosos en el ambiente de manera eficiente y precisa.</span>
+                            </li>
+                            <li class="mb-3 d-flex align-items-center">
+                                <i class="fas fa-check-circle text-primary me-3"></i>
+                                <span>Automatizar la apertura de ventanas y puertas para mejorar la ventilación en caso de detección de gas.</span>
+                            </li>
+                            <li class="mb-3 d-flex align-items-center">
+                                <i class="fas fa-check-circle text-primary me-3"></i>
+                                <span>Aumentar la seguridad en el hogar mediante la implementación de un sistema de alerta temprana.</span>
+                            </li>
+                            <li class="mb-3 d-flex align-items-center">
+                                <i class="fas fa-check-circle text-primary me-3"></i>
+                                <span>Educar sobre la importancia de la detección de gases y la seguridad en el hogar.</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="section-title text-center mt-5" data-aos="fade-up">
+                <h2>Funcionamiento</h2>
+                <p>El sistema se basa en la lectura continua de los niveles de gas mediante el sensor de gas. Cuando el sensor detecta una concentración de gas que supera un umbral predefinido, el Arduino activa el módulo de relé, lo que a su vez activa los servomotores para abrir las ventanas y puertas. Además, el sistema puede incluir una alarma o buzzer para alertar a los ocupantes sobre la detección de gas. </p>
+            </div>
+            
+        </div>
+    </section>
+    
+    <!-- Gallery Section -->
+    <section id="gallery" class="section">
+        <div class="section-particles" id="gallery-particles"></div>
+        <div class="container">
+            <div class="section-title text-center" data-aos="fade-up">
+                <h2>Galería del Proyecto</h2>
+                <p>Visualice nuestro proyecto a través de imágenes de alta calidad</p>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="zoom-in">
+                    <div class="gallery-item">
+                        <img src="8.png" alt="Imagen 1 del Proyecto" class="lazy-load">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="gallery-item">
+                        <img src="9.jpg" alt="Imagen 2 del Proyecto" class="lazy-load">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="gallery-item">
+                        <img src="10.jpeg" alt="Imagen 2 del Proyecto" class="lazy-load">
+        
+                        
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="gallery-item">
+                        <img src="12.jpeg" alt="Imagen 2 del Proyecto" class="lazy-load">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="gallery-item">
+                       <img src="13.jpeg" alt="Imagen 3 del Proyecto" class="lazy-load">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="zoom-in" data-aos-delay="500">
+                    <div class="gallery-item">
+                       <img src="14.jpeg" alt="Imagen 4 del Proyecto" class="lazy-load">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Team Section -->
+    <section class="team-section" id="team">
+        <div class="section-particles" id="team-particles"></div>
+        <div class="container">
+            <div class="section-title text-center">
+                <h2>Nuestro Equipo</h2>
+            </div>
+            <div class="row">
+                <!-- Miembro del Equipo 1 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="team-member">
+                        <div class="team-img">
+                            <img src="5.jpeg" alt="Miembro del Equipo 1">
+                        </div>
+                        <h4>Karina Benítez</h4>
+                       
+                    </div>
+                </div>
+                
+                <!-- Miembro del Equipo 2 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="team-member">
+                        <div class="team-img">
+                            <img src="7.jpeg" alt="Miembro del Equipo 2">
+                            </div>
+                        <h4>Luana Martinez</h4>
+                        
+                    </div>
+                </div>
+                
+                <!-- Miembro del Equipo 3 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="team-member">
+                        <div class="team-img">
+                            <img src="6.jpeg" alt="Miembro del Equipo 3">
+                        </div>
+                        <h4>Liz López</h4>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                    <h3 class="footer-title">GasGuard</h3>
+                    <p>Revolucionando el futuro con soluciones innovadoras.</p>
+                    
+                </div>
+            </div>
+            <div class="mt-4 text-center">
+                <p>Nombre del Proyecto: GasGuard| Fecha: 2025</p>
+            </div>
+            <div class="copyright mt-4">
+                <p>© 2025 GasGuard. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Back to top button -->
+    <div class="back-to-top" id="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+    
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html> 
